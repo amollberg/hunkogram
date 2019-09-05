@@ -18,10 +18,11 @@ setup(
     license = "BSD",
     keywords = "git visualization console terminal",
     url = "https://github.com/amollberg/fragmap",
-    packages=['fragmap', 'tests', 'getch'],
+    packages=setuptools.find_packages(),
     long_description=read('README.md'),
     python_requires='>=3.4',
     classifiers=[
+        "Programming Language :: Python :: 3",
         "Topic :: Software Development :: Version Control",
         "Environment :: Console",
         "Topic :: Utilities",
